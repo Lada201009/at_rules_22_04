@@ -1,33 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>At-rules. responsive</title>
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <h1>Heading</h1>
-    <h2>Heading</h2>
-    <section class="main-info">
-      <h2>title main info</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-        cupiditate dolorem aspernatur voluptates necessitatibus? Autem tempora
-        harum, magni provident recusandae, iure fugiat tenetur sit aliquam
-        perferendis veritatis vel? Quo, dicta?
-      </p>
-    </section>
-    <article class="user-card">
-      <div class="avatar"><img src="./assets/images/user.jpg" alt="" /></div>
-      <div class="full-name">
-        <h2>Elon Musk</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, error!
-        </p>
-      </div>
-    </article>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>At-rules, responsive</title>
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/image.css">
+</head>
+<body>
+  <picture>
+    <source srcset="./assets/images/car2_3840.webp" media="(min-width:992px) and (min-resolution:200)">
+    <source srcset="./assets/images/car_1190.webp" media="(min-width:992px)">
+    <source srcset="./assets/images/car_1190.jpg" media="(min-width:992px)">
+        
+    <img class="image" src="./assets/images/car_800.jpg" alt="car">
+  </picture>
+  
+</body>
 </html>
